@@ -1,7 +1,7 @@
 FROM debian:buster-slim
 MAINTAINER macknife
 RUN apt-get update && apt-get -y install apt-transport-https wget ca-certificates apt-utils gnupg libzip4 libavahi-client3 libavahi-client-dev insserv
-RUN apt-get install nano vim
+RUN apt-get install nano
 RUN \
     touch /tmp/HOMEGEAR_STATIC_INSTALLATION; \
     touch /.dockerenv; \
