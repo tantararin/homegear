@@ -10,7 +10,7 @@
   "gpio": true,
   "privileged": true,
   "map": ["config:rw", "share:rw", "ssl:rw"],
-  "device": "/dev/spidev0.0"
+  "device": "/dev/spidev0.0",
   "ports": {
     "2001/tcp": 2001,
     "2002/tcp": 2002,
