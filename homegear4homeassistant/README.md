@@ -1,5 +1,7 @@
 # Homegear4Homeassistant
 
+Well done ...
+
 This plugin heavily uses the original Docker Image from the Homegear project.\
 I only extended and modified the scripts for working as a HASS plugin. 
 
