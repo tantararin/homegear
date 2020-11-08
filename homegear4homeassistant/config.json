@@ -12,6 +12,7 @@
     "SYS_ADMIN",
     "SYS_RAWIO"
   ],
+  "device": ["/dev/spidev0.0:/dev/spidev0.0:rwm", "/sys:/sys"],
   "map": ["config:rw", "share:rw", "ssl:rw"],
   "ports": {
     "2001/tcp": 2001,
@@ -20,6 +21,5 @@
   },
   "environment": {  },
   "options": {  },
-  "schema": {  },
-  "device": ["/dev/spidev0.0:/dev/spidev0.0", "/sys:/sys"]
+  "schema": {  }
 }
