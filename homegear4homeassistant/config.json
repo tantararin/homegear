@@ -26,6 +26,5 @@
     "2003/tcp": 2003
   },
   "environment": {  },
-  "schema": {  },
-  "image": "homeassistant/addon-homegear"
+  "schema": {  }
 }
