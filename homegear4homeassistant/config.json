@@ -6,7 +6,7 @@
   "arch": ["armhf"],
   "startup": "before",
   "boot": "auto",
-  "auto_uart":"true",
+  "auto_uart": true,
   "gpio": true,
   "privileged": [
     "SYS_ADMIN",
@@ -18,8 +18,5 @@
     "2002/tcp": 2002,
     "2003/tcp": 2003
   },
-  "environment": {  },
-  "options": {  },
-  "schema": {  },
   "devices": ["/dev/spidev0.0:/dev/spidev0.0", "/sys:/sys"]
 }
