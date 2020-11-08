@@ -18,5 +18,5 @@
     "2002/tcp": 2002,
     "2003/tcp": 2003
   },
-  "devices": ["/dev/spidev0.0:/dev/spidev0.0", "/sys:/sys"]
+  "device": ["/dev/spidev0.0:/dev/spidev0.0", "/sys:/sys"]
 }
