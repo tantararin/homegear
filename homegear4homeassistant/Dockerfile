@@ -1,4 +1,4 @@
-FROM armhf-base-raspbian:buster
+FROM homeassistant/armhf-base-raspbian:buster
 MAINTAINER macknife
 RUN apt-get update && apt-get -y install apt-transport-https wget ca-certificates apt-utils gnupg libzip4 libavahi-client3 libavahi-client-dev insserv
 RUN apt-get install nano
