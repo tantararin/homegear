@@ -15,7 +15,7 @@
     "SYS_RAWIO",
     "SYS_MODULE"
   ],
-  "device": ["/dev/spidev0.0:rw"],
+  "devices": ["/dev/spidev0.0:rw"],
   "options": {
   },
   "map": ["config:rw", "share:rw", "ssl:rw"],
