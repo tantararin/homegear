@@ -19,7 +19,7 @@ RUN \
 
 COPY start.sh /start.sh
 RUN chmod +x /start.sh \
-&& chown root:root /dev/spidev0.0  
+&& chown homegear:homegear /dev/spidev0.0  
 ENTRYPOINT ["/bin/bash", "-c", "/start.sh"]
 
 EXPOSE 2001 2002 2003
