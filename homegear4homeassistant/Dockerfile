@@ -19,7 +19,6 @@ RUN \
 
 COPY start.sh /start.sh
 RUN chmod +x /start.sh
-CMD [ "/start.sh" ]
-#ENTRYPOINT ["/bin/bash", "-c", "/start.sh"]
+ENTRYPOINT ["/bin/bash", "-c", "/start.sh"]
 
 EXPOSE 2001 2002 2003
