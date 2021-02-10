@@ -10,12 +10,8 @@
   "uart": true,
   "gpio": true,
   "apparmor": false,
-  "privileged": [
-    "SYS_ADMIN",
-    "SYS_RAWIO",
-    "SYS_MODULE"
-  ],
-  "devices": ["/dev/spidev0.0"],
+  "full_access": true
+  "devices": [],
   "options": {
   },
   "map": ["config:rw", "share:rw", "ssl:rw"],
