@@ -7,7 +7,7 @@
   "startup": "services",
   "boot": "auto",
   "kernel_modules": true,
-  "auto_uart": true,
+  "uart": true,
   "gpio": true,
   "apparmor": false,
   "discovery": ["homegear"],
