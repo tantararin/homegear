@@ -1,4 +1,4 @@
-FROM debian:buster-slim
+FROM armhf-base-raspbian:buster
 MAINTAINER macknife
 RUN apt-get update && apt-get -y install apt-transport-https wget ca-certificates apt-utils gnupg libzip4 libavahi-client3 libavahi-client-dev insserv
 RUN apt-get install nano
@@ -15,7 +15,7 @@ RUN \
     mv /var/lib/homegear /var/lib/homegear.data; \
     apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-VOLUME ["/etc/homegear", "/var/lib/homegear", "/var/log/homegear"]
+#VOLUME ["/etc/homegear", "/var/lib/homegear", "/var/log/homegear"]
 
 COPY start.sh /start.sh
 RUN chmod +x /start.sh 
