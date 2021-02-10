@@ -10,7 +10,6 @@
   "uart": true,
   "gpio": true,
   "apparmor": false,
-  "discovery": ["homegear"],
   "privileged": [
     "SYS_ADMIN",
     "SYS_RAWIO",
