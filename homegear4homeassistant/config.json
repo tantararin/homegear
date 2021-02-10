@@ -10,7 +10,7 @@
   "uart": true,
   "gpio": true,
   "apparmor": false,
-  "full_access": true
+  "full_access": true,
   "devices": [],
   "options": {
   },
