@@ -11,8 +11,6 @@ _term() {
 	exit 0
 }
 
-chown homegear:homegear /dev/tty*
-
 chown homegear:homegear /dev/spi*
 
 if ! [ -d "/config/homegear" ]
