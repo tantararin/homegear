@@ -11,8 +11,6 @@ _term() {
 	exit 0
 }
 
-chown homegear:homegear /dev/spi*
-
 if ! [ -d "/config/homegear" ]
 then
 	mkdir /config/homegear
@@ -107,6 +105,7 @@ if ! [ -f /etc/homegear/dh1024.pem ]; then
 fi
 
 chown -R root:root /etc/homegear
+chown ${USER}:${USER} /dev/spidev*
 chown ${USER}:${USER} /etc/homegear/*.key
 chown ${USER}:${USER} /etc/homegear/*.pem
 chown ${USER}:${USER} /etc/homegear/ca/private/*.key
