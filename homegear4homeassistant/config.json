@@ -11,7 +11,7 @@
   "gpio": true,
   "apparmor": false,
   "full_access": true,
-  "devices": [],
+  "devices": ["/dev/spidev0.0:rw"],
   "options": {
   },
   "map": ["config:rw", "share:rw", "ssl:rw"],
