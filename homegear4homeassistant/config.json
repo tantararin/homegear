@@ -9,6 +9,7 @@
   "kernel_modules": true,
   "uart": true,
   "gpio": true,
+  "udev": true,
   "apparmor": false,
   "full_access": true,
   "devices": ["/dev/spidev0.0"],
