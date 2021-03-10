@@ -6,7 +6,7 @@ This plugin heavily uses the original Docker Image from the Homegear project.\
 I only extended and modified the scripts for working as a HASS plugin. 
 
 
-Primarly I build it for my own, because I don't want to replace my MAX! Devices and don't want to power two raspberry PI at home
+Primarly I build it for my own, because I don't want to replace my MAX! and 4uControl (MAX! in Spain) Devices and don't want to power two raspberry PI at home
 
 
 Feel free to use my AddOn, but keep in mind it comes absolutely without warranty and support \
@@ -21,10 +21,10 @@ Feel free to use my AddOn, but keep in mind it comes absolutely without warranty
 
 
 # WebGui
-The Admin GUI is available via "http://your-hass:2001/admin"
+The Admin GUI is available via http://your-hass:2001/admin
 
 # Restricions
-You can't use the CLI Configuration. You can add devices via ADMIN-UI (tested with MAX!)
+You can't use the CLI Configuration. You can add devices via ADMIN-UI (tested with MAX! and 4uControl)
 
 # Examples
 
