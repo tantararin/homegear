@@ -10,9 +10,10 @@
   "uart": true,
   "gpio": true,
   "udev": true,
+  "webui": "http://[HOST]:[PORT:2001]/admin",
   "apparmor": false,
   "full_access": true,
-  "devices": ["/dev/spidev0.0"],
+  "devices": ["/dev/ttyAMA0", "/dev/ttyACM0"],
   "options": {
   },
   "map": ["config:rw", "share:rw", "ssl:rw"],
